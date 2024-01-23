@@ -1,0 +1,53 @@
+.containerprincipal {
+  width: 100%;
+  height: 130%;
+  background-color: #F2F2F2;
+}
+
+.navbar{
+  width: 20%;
+  background-color: #003b34;
+  justify-content: center;
+  height: 100%;
+}
+
+
+.lista {
+  	color: #F2F2F2;
+  	display: flex;
+}
+
+.lista-home{
+    margin: 3px;
+}
+
+.logotdm{
+    margin: 20px; /* Remova as margens padrão do corpo */
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.classfooter{
+    background-color: #003b34;
+    color: white;
+    text-align: center;
+    height: 10%;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-footer{
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.saida {
+  color: #F2F2F2;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1rem;
+}

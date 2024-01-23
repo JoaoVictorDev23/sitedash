@@ -1,0 +1,63 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.login {
+  width: 30%;
+  height: 100%;
+  background-color: #F2F2F2;
+  float: left; /* adiciona float: left para que as divs fiquem uma ao lado da outra */
+  box-sizing: border-box; /* inclui bordas e paddings na largura e altura */
+}
+
+.introducao {
+  width: 70%;
+  height: 100%;
+  background-color: #003b34;
+  float: left; /* adiciona float: left para que as divs fiquem uma ao lado da outra */
+  box-sizing: border-box; /* inclui bordas e paddings na largura e altura */
+}
+
+h1 {
+  color: #003b34;
+  font-size: 40px;
+  text-align: center; /* This will center the text */
+  margin-top: 5rem; /* Isso adiciona espaço na parte inferior (ajuste conforme necessário) */
+}
+
+.logo{
+    margin: 50px 0px 50px 54px; /* Remova as margens padrão do corpo */
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-login{
+  margin: 0px 6.5%; /* Remova as margens padrão do corpo */
+}
+
+.e-mail{
+  width: 350px; /* ou qualquer valor desejado para a largura */
+}
+.senha{
+  width: 350px; /* ou qualquer valor desejado para a largura */
+}
+
+.background{
+  width: 100%;
+}
+
+.botao-entrar{
+  width: 350px;
+  background-color: #003b34;
+}
+
+.text-button{
+  color: #ffffff;
+}
+
+.areadelogin{
+  margin-left: -0.8rem;
+}

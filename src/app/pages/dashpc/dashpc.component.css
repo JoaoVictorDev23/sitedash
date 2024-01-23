@@ -1,0 +1,19 @@
+
+.header{
+  margin: auto;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+}
+
+.dash{
+  width: 99%;
+}
+
+.img{
+  width: 400px;
+  height: auto;
+}

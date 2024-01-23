@@ -1,0 +1,43 @@
+<mat-drawer-container class="containerprincipal">
+
+    <mat-drawer mode="side" class="navbar" opened>
+
+        <img class="logotdm" src="/assets/img/logobranco.png" alt="Logo Tdm">
+
+        <mat-list>
+
+            <a mat-list-item routerLink="/home" routerLinkActive="selected">
+                <a class="lista">
+                    <mat-icon>home</mat-icon>
+                    <a class="lista-home">Home</a>
+                </a>
+            </a>
+            <a mat-list-item routerLink="/dashpc" routerLinkActive="selected">
+                <a class="lista">
+                    <mat-icon>looks_one</mat-icon>
+                    <a class="lista-home">Dashboard Performance</a>
+                </a>
+            </a>
+            <a mat-list-item routerLink="/" routerLinkActive="selected">
+              <a class="saida">
+                  <mat-icon>exit_to_app</mat-icon>
+                  <a class="lista-home">Sair</a>
+              </a>
+          </a>
+
+        </mat-list>
+
+
+
+    </mat-drawer>
+
+    <footer class="classfooter">
+      <h1 class="text-footer">
+        <p class="text-footer">© 2024 TDM Transportes. Todos os direitos reservados.</p>
+      </h1>
+    </footer>
+
+    <router-outlet></router-outlet>
+
+</mat-drawer-container>
+
